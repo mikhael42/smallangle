@@ -1,0 +1,20 @@
+[project]
+name = "smallangle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mikhael42", email = "mikhael.samurai@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+]
+
+[project.scripts]
+smallangle = "smallangle:sin"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
