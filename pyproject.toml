@@ -8,12 +8,13 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "click>=8.5.1",
     "numpy>=2.5.5",
     "pandas>=3.1.1",
 ]
 
 [project.scripts]
-smallangle = "smallangle.smallangle:main"
+smallangle = "smallangle.smallangle:sin"
 
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]
