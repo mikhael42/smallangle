@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-smallangle = "smallangle.smallangle:sin"
+smallangle = "smallangle.smallangle:cmd_group"
 
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]
